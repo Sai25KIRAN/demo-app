@@ -5,7 +5,7 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 
 const routes: Routes = [
     { path: '', component: HomeComponentComponent },
-   { path: 'image-page', component: ImagePageComponent }
+   { path: 'image-page/:id', component: ImagePageComponent }
 ];
 
 @NgModule({
