@@ -17,7 +17,7 @@ ngOnInit(): void {
   //   else if(params['id'] == 2 ){ this.isShow1 = true; this.isShow = false; }
   // });
   var id = this.route.snapshot.paramMap.get('id')?.toString();
-     if(id == "1" ){ this.isShow = true; this.isShow = false; }
+     if(id == "1" ){ this.isShow = true; this.isShow1 = false; }
     else if(id == "2" ){ this.isShow1 = true; this.isShow = false; }
 }
 
