@@ -25,4 +25,8 @@ export class HomeComponentComponent {
     this.isShow =false;
     this.router.navigate(['/image-page',2]);
   }
+
+  ShowAlert(){
+    alert('HI');
+  }
 }
