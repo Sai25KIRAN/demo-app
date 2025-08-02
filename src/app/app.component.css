@@ -1,0 +1,11 @@
+/* src/app/home/home.component.css */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  padding: 1em 2em;
+  font-size: 2rem;
+}
